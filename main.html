@@ -9,7 +9,7 @@
 <body>	
 	<script>
 		function secondHighest(arr) {
-			arr.sort()
+			arr.sort(function(a, b){return a - b});
     let n=arr.length;
     return arr[length-2]
     
